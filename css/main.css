@@ -119,7 +119,7 @@ body {
 }
 .table_scroll_art6__table {
   border-spacing: 0;
-  padding-bottom: 10px
+  padding-bottom: 30px
 }
 .table_scroll_art6__table td,
 .table_scroll_art6__table th {
@@ -141,6 +141,9 @@ body {
   text-align: center
 }
 @media (max-width:767px) {
+  .table_scroll_art6__table {
+    padding-bottom: 25px
+  }
   .table_scroll_art6__table td,
   .table_scroll_art6__table th {
     height: 65px
