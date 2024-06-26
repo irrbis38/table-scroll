@@ -91,7 +91,7 @@
 .table_scroll_art6__table {
     // width: 100%;
     border-spacing: 0;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 
     th,
     td {
@@ -114,6 +114,8 @@
     }
 
     @include xs {
+        padding-bottom: 25px;
+
         th,
         td {
             height: 65px;
